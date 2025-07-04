@@ -16,8 +16,12 @@ export default function Producto1() {
           <div className="flex flex-col items-start gap-10 justify-center">
             <h1 className="font-bold text-2xl">Pulsera roja y blanca</h1>
             <p>
-              Pulsera de perlas rojas, blancas y doradas. El mejor accesorio
-              para tu mejor conjunto de noche de verano.
+              Pulseras de perlas hechas a mano. El mejor accesorio para tu mejor
+              conjunto de noche de verano.
+            </p>
+            <p>
+              No te olvides de especificar la pulsera que más te guste en la
+              sección de pago.
             </p>
           </div>
           <div className="flex flex-col gap-2">

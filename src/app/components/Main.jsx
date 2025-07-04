@@ -16,10 +16,18 @@ export default function Main() {
         </div>
       </div>
       <main className="py-10 flex flex-row items-center justify-center">
-        <img src="pulsera1.png" alt="pulsera1" className="w-[24dvw] h-auto" />
-        <img src="pulsera2.png" alt="pulsera1" className="w-[24dvw] h-auto" />
-        <img src="pulsera3.png" alt="pulsera1" className="w-[24dvw] h-auto" />
-        <img src="pulsera4.png" alt="pulsera1" className="w-[24dvw] h-auto" />
+        <a href="./producto2">
+          <img src="pulsera1.png" alt="pulsera1" className="w-[24dvw] h-auto" />
+        </a>
+        <a href="./producto2">
+          <img src="pulsera2.png" alt="pulsera1" className="w-[24dvw] h-auto" />
+        </a>
+        <a href="./producto2">
+          <img src="pulsera3.png" alt="pulsera1" className="w-[24dvw] h-auto" />
+        </a>
+        <a href="./producto2">
+          <img src="pulsera4.png" alt="pulsera1" className="w-[24dvw] h-auto" />
+        </a>
       </main>
     </div>
   );
