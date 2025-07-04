@@ -15,7 +15,7 @@ export async function POST(req) {
               name: "Pulsera Elegante",
               description: "Pulsera hecha a mano con piedras naturales",
             },
-            unit_amount: 2995, // €29,95 en céntimos
+            unit_amount: 2995, // €29.95 en céntimos
           },
           quantity: 1,
         },
@@ -26,7 +26,7 @@ export async function POST(req) {
 
     return Response.json({ url: session.url });
   } catch (err) {
-    console.error("Error creating checkout session:", err);
+    console.error("❌ Error creando sesión de checkout:", err);
     return Response.json(
       { error: "Error creating checkout session" },
       { status: 500 }
